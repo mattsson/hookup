@@ -1,0 +1,9 @@
+ios-ng/ManagedObjects/_*
+ios-ng/.xccheckout
+ios-ng/build
+ios-ng.xccheckout
+.idea
+Podfile.lock
+xcuserdata
+.DS_Store
+Pods
