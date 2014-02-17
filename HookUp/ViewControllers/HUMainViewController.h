@@ -8,6 +8,8 @@
 
 
 
-@interface HUMainViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+#import "FBLoginView.h"
+
+@interface HUMainViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, FBLoginViewDelegate>
 
 @end

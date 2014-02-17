@@ -14,12 +14,15 @@
 		12A7667DD89304068F83B293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A76B38B4B2BC8F3888E71F /* Images.xcassets */; };
 		12A766B4E07985FA4C815D54 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A76AFF0FA3FC925C1F03FE /* XCTest.framework */; };
 		12A768CC7699F12A02EC54E4 /* HUMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A76380BC702B7F58FACEED /* HUMainViewController.m */; };
+		12A768FAF36F3B4A1F87179A /* HUTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A761CD81F8CE6847201436 /* HUTableView.m */; };
+		12A76919B480F0FC2517B84F /* HUMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A76F8AFAF2FE7F784DDFB5 /* HUMainTableViewCell.m */; };
 		12A7699A9885294BE995FC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A769A5A85092F9D798EA51 /* Foundation.framework */; };
 		12A769DB9AB27FDAB0E2BF7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A76D63780C8E2FA1D1487C /* main.m */; };
 		12A76A81C090C5BE9387D49A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A769A5A85092F9D798EA51 /* Foundation.framework */; };
 		12A76BD135D7D2CCF56F4606 /* HUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A765A3E7D2E3E42194D18E /* HUAppDelegate.m */; };
 		12A76CB8C3B27E6A3B583269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A7634062E188C3FBF07360 /* UIKit.framework */; };
 		12A76D1470F81ED2AAE0D600 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A7634062E188C3FBF07360 /* UIKit.framework */; };
+		12A76FBF800985E3A21BAD74 /* HUMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A760EC27EF1DB567C0072E /* HUMainViewModel.m */; };
 		7EAE60CE7A8344ADBFD6E125 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEEA36C7B86451DBFBE19E4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A760D4F5EF98695DF5CD69 /* HUMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUMainTableViewCell.h; sourceTree = "<group>"; };
+		12A760EC27EF1DB567C0072E /* HUMainViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUMainViewModel.m; sourceTree = "<group>"; };
 		12A76143D3D7BA0E61E0E212 /* HookUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HookUpTests-Info.plist"; sourceTree = "<group>"; };
+		12A761CD81F8CE6847201436 /* HUTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTableView.m; sourceTree = "<group>"; };
 		12A762CF436F6EFDE0674EA7 /* HookUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HookUp-Prefix.pch"; sourceTree = "<group>"; };
 		12A7634062E188C3FBF07360 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		12A76380BC702B7F58FACEED /* HUMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUMainViewController.m; sourceTree = "<group>"; };
@@ -43,6 +49,7 @@
 		12A764BF92D984B955144CF8 /* HookUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookUpTests.m; sourceTree = "<group>"; };
 		12A765A3E7D2E3E42194D18E /* HUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUAppDelegate.m; sourceTree = "<group>"; };
 		12A765ED8419A7CA4060BCAF /* HookUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "HookUp-Info.plist"; sourceTree = "<group>"; };
+		12A7689131AD7BEA173CFFAB /* HUTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTableView.h; sourceTree = "<group>"; };
 		12A769A5A85092F9D798EA51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		12A769FD328C643211F9396A /* HookUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A76AFF0FA3FC925C1F03FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -52,6 +59,8 @@
 		12A76CCC2312C5FF9296E9B6 /* HookUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HookUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A76CFC01724904047F63E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12A76D63780C8E2FA1D1487C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12A76DD701200A166CB246BD /* HUMainViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUMainViewModel.h; sourceTree = "<group>"; };
+		12A76F8AFAF2FE7F784DDFB5 /* HUMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUMainTableViewCell.m; sourceTree = "<group>"; };
 		90E7271583A14761BA3D6C8B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AAEEA36C7B86451DBFBE19E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +102,8 @@
 		12A761408E9FCBBCAE0B9BD7 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				12A760EC27EF1DB567C0072E /* HUMainViewModel.m */,
+				12A76DD701200A166CB246BD /* HUMainViewModel.h */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -117,6 +128,7 @@
 				12A76B38B4B2BC8F3888E71F /* Images.xcassets */,
 				12A761408E9FCBBCAE0B9BD7 /* ViewModels */,
 				12A767A981F1994053F03A92 /* ViewControllers */,
+				12A76F5A3787501225F3E822 /* Views */,
 			);
 			path = HookUp;
 			sourceTree = "<group>";
@@ -169,6 +181,17 @@
 				12A764BF92D984B955144CF8 /* HookUpTests.m */,
 			);
 			path = HookUpTests;
+			sourceTree = "<group>";
+		};
+		12A76F5A3787501225F3E822 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12A7689131AD7BEA173CFFAB /* HUTableView.h */,
+				12A761CD81F8CE6847201436 /* HUTableView.m */,
+				12A760D4F5EF98695DF5CD69 /* HUMainTableViewCell.h */,
+				12A76F8AFAF2FE7F784DDFB5 /* HUMainTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +252,6 @@
 			mainGroup = 12A76A2B970B20D0B6FD6151;
 			productRefGroup = 12A76DFDE3E0A272B8F4AAB1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				12A76301828608CE645FAB0C /* HookUp */,
@@ -308,6 +329,9 @@
 				12A769DB9AB27FDAB0E2BF7D /* main.m in Sources */,
 				12A76BD135D7D2CCF56F4606 /* HUAppDelegate.m in Sources */,
 				12A768CC7699F12A02EC54E4 /* HUMainViewController.m in Sources */,
+				12A768FAF36F3B4A1F87179A /* HUTableView.m in Sources */,
+				12A76FBF800985E3A21BAD74 /* HUMainViewModel.m in Sources */,
+				12A76919B480F0FC2517B84F /* HUMainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +375,7 @@
 				GCC_PREFIX_HEADER = "HookUp/HookUp-Prefix.pch";
 				INFOPLIST_FILE = "HookUp/HookUp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -469,6 +494,7 @@
 				GCC_PREFIX_HEADER = "HookUp/HookUp-Prefix.pch";
 				INFOPLIST_FILE = "HookUp/HookUp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -492,6 +518,7 @@
 				12A76DE051AC75345D91E219 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12A76939C83D7238F49275B3 /* Build configuration list for PBXNativeTarget "HookUpTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +527,7 @@
 				12A7660A35FCA56AC91A9FE5 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

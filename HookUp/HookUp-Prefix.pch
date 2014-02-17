@@ -15,5 +15,6 @@
 
     #import <Foundation/Foundation.h>
     #import "Masonry.h"
+    #import <ReactiveCocoa/ReactiveCocoa.h>
 
 #endif
